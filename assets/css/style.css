@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+header {
+    background-color: rgb(128, 26, 26);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.Titulo-Car {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.Button-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+div {
+    width: 20%;
+}
+
+
+body {
+    
+}
