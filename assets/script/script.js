@@ -37,9 +37,9 @@ btnItalia.addEventListener("click", () => {
 	descricaoPrato3.textContent = 'Uma tradicional comida italiana a base de arroz';
 
 	//imgs
-	imgPrato1.src = "../imgs/napolitana.jpg";
-	imgPrato2.src = "../imgs/lasanha.jpg";
-	imgPrato3.src = "../imgs/risoto.jpg";
+	imgPrato1.src = "../imgs/imgs-italia/napolitana.jpg";
+	imgPrato2.src = "../imgs/imgs-italia/lasanha.jpg";
+	imgPrato3.src = "../imgs/imgs-italia/risoto.jpg";
 })
 
 btnJapao.addEventListener("click", () => {
