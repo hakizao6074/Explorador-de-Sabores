@@ -37,9 +37,9 @@ btnItalia.addEventListener("click", () => {
 	descricaoPrato3.textContent = 'Uma tradicional comida italiana a base de arroz';
 
 	//imgs
-	imgPrato1.src = "../imgs/imgs-italia/napolitana.jpg";
-	imgPrato2.src = "../imgs/imgs-italia/lasanha.jpg";
-	imgPrato3.src = "../imgs/imgs-italia/risoto.jpg";
+	imgPrato1.src = "./assets/imgs/imgs-italia/napolitana.jpg";
+	imgPrato2.src = "./assets/imgs/imgs-italia/lasanha.jpg";
+	imgPrato3.src = "./assets/imgs/imgs-italia/risoto.jpg";
 })
 
 btnJapao.addEventListener("click", () => {
@@ -54,9 +54,9 @@ btnJapao.addEventListener("click", () => {
 	descricaoPrato3.textContent = '';
 
 	//imgs
-	imgPrato1.src = "../imgs/";
-	imgPrato2.src = "../imgs/";
-	imgPrato3.src = "../imgs/";
+	imgPrato1.src = "./assets/imgs/";
+	imgPrato2.src = "./assets/imgs/";
+	imgPrato3.src = "./assets/imgs/";
 })
 
 btnMexico.addEventListener("click", () => {
@@ -71,7 +71,7 @@ btnMexico.addEventListener("click", () => {
 	descricaoPrato3.textContent = '';
 
 	//imgs
-	imgPrato1.src = "../imgs/";
-	imgPrato2.src = "../imgs/";
-	imgPrato3.src = "../imgs/";
+	imgPrato1.src = "./assets/imgs/";
+	imgPrato2.src = "./assets/imgs/";
+	imgPrato3.src = "./assets/imgs/";
 })
