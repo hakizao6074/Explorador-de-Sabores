@@ -66,8 +66,8 @@ main {
 }
 
 .button-pratos {
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     border-radius: 20px;
     border: solid 2px rgb(221, 19, 19);
     background-color: rgb(255, 255, 255);
@@ -93,14 +93,25 @@ main {
     margin: 10px;
     padding: 10px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    height: 250px;
+    flex-direction: column;
     border-radius: 20px;
     background-color: rgb(231, 229, 229);
-    width: 160px;
+    width: 200px;
     box-shadow: 7px rgba(0, 0, 0, 0.651);
+    height: 300px;
+    text-align: center;
 }
 
+
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+}
 .img-pratos {
     border-radius: 20px;
 }
