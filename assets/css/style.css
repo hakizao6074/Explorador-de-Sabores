@@ -62,9 +62,8 @@ main {
     justify-content: space-around;
     gap: 10px;
     padding: 20px;
-    width: 70%;
+    width: 70%; 
 }
-
 .button-pratos {
     width: 150px;
     height: 40px;
@@ -106,7 +105,6 @@ main {
     height: 300px;
     text-align: center;
 }
-
 
 .descricao {
     display: flex;
