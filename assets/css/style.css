@@ -118,7 +118,7 @@ main {
     border: solid 2px rgb(29, 129, 4);
     background-color: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    background-image: url(/assets/imgs/imgs-italia/bandeira.webp);
+    background-image: url("/assets/imgs/imgs-italia/bandeira.webp");
     background-size: cover;
 }
 .button-italia:hover {
@@ -152,7 +152,7 @@ main {
     border: solid 2px rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    background-image: url(/assets/imgs/imgs-mexic/bandeira.jpg);
+    background-image: url("/assets/imgs/imgs-mexic/bandeira.jpg");
     background-size: cover;
 }
 .button-mexic:hover {
@@ -168,7 +168,7 @@ main {
     border: solid 2px rgb(29, 129, 4);
     background-color: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    background-image: url(/assets/imgs/imgs-brasil/bandeira.jpg);
+    background-image: url("/assets/imgs/imgs-brasil/bandeira.jpg");
     background-size: cover;
 }
 .button-brasil:hover {
@@ -202,7 +202,7 @@ main {
     border: solid 2px rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    background-image: url(/assets/imgs/imgs-franca/bandeira.webp);
+    background-image: url("/assets/imgs/imgs-franca/bandeira.webp");
     background-size: cover;
 }
 .button-franca:hover {
@@ -217,7 +217,7 @@ main {
     border: solid 2px rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     transition: all 0.3s ease;
-    background-image: url(/assets/imgs/imgs-soma/bandeira.jpg);
+    background-image: url("/assets/imgs/imgs-soma/bandeira.jpg");
     background-size: cover;
 }
 .button-somalia:hover {
