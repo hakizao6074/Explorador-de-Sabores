@@ -18,11 +18,22 @@ const btnItalia = document.getElementById("btnItalia");
 const btnJapao = document.getElementById("btnJapao");
 const btnMexico = document.getElementById("btnMexico");
 
+// fundo cartoes do dos pratos
+const back_fundo1 = document.getElementById("image-back1")
+const back_fundo2 = document.getElementById("image-back2")
+const back_fundo3 = document.getElementById("image-back3")
+
+// troca a badneira de cada pais selecionado
+
+
 //temas escuro - claro
 const btnTema = document.getElementById("tema");
 
 //body
 const body = document.body;
+
+// troca o nome de cada pais selecionado
+const Nome_pais = document.getElementById("nome-pais")
 
 //eventos
 btnItalia.addEventListener("click", () => {
@@ -40,38 +51,61 @@ btnItalia.addEventListener("click", () => {
 	imgPrato1.src = "./assets/imgs/imgs-italia/napolitana.jpg";
 	imgPrato2.src = "./assets/imgs/imgs-italia/lasanha.jpg";
 	imgPrato3.src = "./assets/imgs/imgs-italia/risoto.jpg";
+
+	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
+	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
+	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
+
+
+	Nome_pais.textContent = 'Italia'
+	
 })
 
 btnJapao.addEventListener("click", () => {
 	//titulos
-	nomePrato1.textContent = '';
-	nomePrato2.textContent = '';
-	nomePrato3.textContent = '';
+	nomePrato1.textContent = 'sushi';
+	nomePrato2.textContent = 'Sashimi' 
+	nomePrato3.textContent = 'Tempurá';
 
 	//descricao
-	descricaoPrato1.textContent = '';
-	descricaoPrato2.textContent = '';
-	descricaoPrato3.textContent = '';
+	descricaoPrato1.textContent = 'Bolinho de arroz temperado com vinagre, que pode ser enrolado.';
+	descricaoPrato2.textContent = 'Bolinho de arroz temperado com vinagre, servido em cone';
+	descricaoPrato3.textContent = 'Frutos do mar ou vegetais empanados em uma massa leve e fritos';
 
 	//imgs
-	imgPrato1.src = "./assets/imgs/";
-	imgPrato2.src = "./assets/imgs/";
-	imgPrato3.src = "./assets/imgs/";
+	imgPrato1.src = "./assets/imgs/imgs-japan/sushi.jpg";
+	imgPrato2.src = "./assets/imgs/imgs-japan/sashimi.jpg";
+	imgPrato3.src = "./assets/imgs/imgs-japan/tempura.jpg";
+
+	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+
+	bandeiraCountry.src = 'assets/imgs/imgs-japan/bandeira.jp'
+	Nome_pais.textContent = 'japão'
+
+
 })
 
 btnMexico.addEventListener("click", () => {
 	//titulos
-	nomePrato1.textContent = '';
-	nomePrato2.textContent = '';
-	nomePrato3.textContent = '';
+	nomePrato1.textContent = 'Tacos';
+	nomePrato2.textContent = 'Burrito';
+	nomePrato3.textContent = 'Quesadilhas';
 
 	//descricao
-	descricaoPrato1.textContent = '';
-	descricaoPrato2.textContent = '';
-	descricaoPrato3.textContent = '';
+	descricaoPrato1.textContent = 'Tortilhas (milho ou trigo) recheadas com carne, frango, peixe ou vegetais';
+	descricaoPrato2.textContent = 'Tortilhas de trigo grandes enrolada com proteinas e vegetais';
+	descricaoPrato3.textContent = 'Tortilhas de milho ou trigo com queijo derretido, com carne ou vegetais';
 
 	//imgs
-	imgPrato1.src = "./assets/imgs/";
-	imgPrato2.src = "./assets/imgs/";
-	imgPrato3.src = "./assets/imgs/";
+	imgPrato1.src = "./assets/imgs/imgs-mexic/tacos.jpg";
+	imgPrato2.src = "./assets/imgs/imgs-mexic/burrito.jpg";
+	imgPrato3.src = "./assets/imgs/imgs-mexic/quesadilhas.jpg";
+
+	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+
+	Nome_pais.textContent = 'Mexico'
 })
