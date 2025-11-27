@@ -23,17 +23,11 @@ const back_fundo1 = document.getElementById("image-back1")
 const back_fundo2 = document.getElementById("image-back2")
 const back_fundo3 = document.getElementById("image-back3")
 
-// troca a badneira de cada pais selecionado
-
-
 //temas escuro - claro
 const btnTema = document.getElementById("tema");
 
 //body
 const body = document.body;
-
-// troca o nome de cada pais selecionado
-const Nome_pais = document.getElementById("nome-pais")
 
 //eventos
 btnItalia.addEventListener("click", () => {
@@ -52,19 +46,16 @@ btnItalia.addEventListener("click", () => {
 	imgPrato2.src = "./assets/imgs/imgs-italia/lasanha.jpg";
 	imgPrato3.src = "./assets/imgs/imgs-italia/risoto.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
-
-
-	Nome_pais.textContent = 'Italia'
-	
+	//background das imgs dos cards
+	back_fundo1.style.backgroundImage = './assets/imgs/imgs-italia/back.jpg';
+	back_fundo2.style.backgroundImage = './assets/imgs/imgs-italia/back.jpg';
+	back_fundo3.style.backgroundImage = './assets/imgs/imgs-italia/back.jpg';
 })
 
 btnJapao.addEventListener("click", () => {
 	//titulos
 	nomePrato1.textContent = 'sushi';
-	nomePrato2.textContent = 'Sashimi' 
+	nomePrato2.textContent = 'Sashimi';
 	nomePrato3.textContent = 'Tempurá';
 
 	//descricao
@@ -77,14 +68,10 @@ btnJapao.addEventListener("click", () => {
 	imgPrato2.src = "./assets/imgs/imgs-japan/sashimi.jpg";
 	imgPrato3.src = "./assets/imgs/imgs-japan/tempura.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
-
-	bandeiraCountry.src = 'assets/imgs/imgs-japan/bandeira.jp'
-	Nome_pais.textContent = 'japão'
-
-
+	//background das imgs dos cards
+	back_fundo1.style.backgroundImage = './assets/imgs/imgs-japan/back-japan.jpg';
+	back_fundo2.style.backgroundImage = './assets/imgs/imgs-japan/back-japan.jpg';
+	back_fundo3.style.backgroundImage = './assets/imgs/imgs-japan/back-japan.jpg';
 })
 
 btnMexico.addEventListener("click", () => {
@@ -103,9 +90,8 @@ btnMexico.addEventListener("click", () => {
 	imgPrato2.src = "./assets/imgs/imgs-mexic/burrito.jpg";
 	imgPrato3.src = "./assets/imgs/imgs-mexic/quesadilhas.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
-
-	Nome_pais.textContent = 'Mexico'
+	//background das imgs dos cards
+	back_fundo1.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
+	back_fundo2.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
+	back_fundo3.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
 })
