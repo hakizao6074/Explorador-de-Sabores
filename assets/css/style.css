@@ -3,7 +3,29 @@
 * {
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  padding: 0px;
   margin: 0px;
+}
+
+/*Cores default (light)*/
+:root {
+	--bg-main: rgba(255, 255, 255, 0.774);
+	--bg-body: ;
+}
+
+/*Cores (dark)*/
+.dark {
+	--bg-body: rgba(155, 155, 155, 0.7);
+}
+
+body {
+	background-color: var(--bg-body);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
 }
 
 header {
@@ -76,6 +98,7 @@ header {
     width: 80%;
     font-size: 38px;
 }
+
 .Button-one {
     display: flex;
     align-items: center;
@@ -107,8 +130,6 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .bandeira {
@@ -128,18 +149,8 @@ div {
         }
 }
 
-
-
-body {
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 main {
-    background-color: rgba(255, 255, 255, 0.774);
+    background-color: var(--bg-main);
     width: 95%;
     display: flex;
     align-items: center;
@@ -160,6 +171,7 @@ main {
     height: 100%;
     flex-wrap: wrap;
 }
+
 .button-italia {
     width: 100px;
     height: 50px;
@@ -171,6 +183,7 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-italia:hover {
     transform: scale(1.1);
 }
@@ -186,9 +199,11 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-japan:hover {
     transform: scale(1.1);
 }
+
 .button-mexic {
     width: 100px;
     height: 50px;
@@ -199,6 +214,7 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-mexic:hover {
     transform: scale(1.1);
 }
@@ -213,6 +229,7 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-brasil:hover {
     transform: scale(1.1);
 }
@@ -227,9 +244,11 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-india:hover {
     transform: scale(1.1);
 }
+
 .button-franca {
     width: 100px;
     height: 50px;
@@ -240,9 +259,11 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-franca:hover {
     transform: scale(1.1);
 }
+
 .button-somalia {
     width: 100px;
     height: 50px;
@@ -253,17 +274,11 @@ main {
     background-repeat: no-repeat;
     border: none;
 }
+
 .button-somalia:hover {
     transform: scale(1.1);
-
-
-
-
-
-
-
-
 }
+
 .hr {
     background-color: rgba(0, 0, 0, 0.651);
     width: 80%;
@@ -331,6 +346,7 @@ main {
     border: 2px solid white;
     transition: all 0.2s ease;
 }
+
 .img-pratos:hover {
     transform: scale(1.1);
 }
