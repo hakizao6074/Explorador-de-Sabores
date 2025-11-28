@@ -2,8 +2,29 @@
 * {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  gap: 0px;
+  padding: 0px;
   margin: 0px;
+}
+
+/*Cores default (light)*/
+:root {
+	--bg-main: rgba(255, 255, 255, 0.774);
+	--bg-body: ;
+}
+
+/*Cores (dark)*/
+.dark {
+	--bg-body: rgba(155, 155, 155, 0.7);
+}
+
+body {
+	background-color: var(--bg-body);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
 }
 
 header {
@@ -24,6 +45,7 @@ header {
     justify-content: center;
     width: 80%;
 }
+
 .Button-one {
     display: flex;
     align-items: center;
@@ -36,7 +58,7 @@ header {
     height: 35px;
     border-radius: 30px;
     border: solid 2px rgb(255, 187, 0);
-    background-image: url("/assets/imgs/icons/back-dia-button.png");
+    background-image: url("../imgs/icons/back-dia-button.png");
     background-size: cover;
     align-items: center;
     display: flex;
@@ -45,7 +67,7 @@ header {
 }
 
 .button-theme:hover {
-    background-image:url("/assets/imgs/icons/back-noite-button-theme.png");
+    background-image:url("../imgs/icons/back-noite-button-theme.png");
     background-size: cover;
     color: rgb(255, 255, 255);
 }
@@ -55,8 +77,6 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .bandeira {
@@ -76,20 +96,8 @@ div {
         }
 }
 
-
-
-body {
-    
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-
 main {
-    background-color: rgba(255, 255, 255, 0.774);
+    background-color: var(--bg-main);
     width: 1100px;
     display: flex;
     align-items: center;
@@ -111,6 +119,7 @@ main {
     height: 100%;
     flex-wrap: wrap;
 }
+
 .button-italia {
     width: 250px;
     height: 170px;
@@ -121,6 +130,7 @@ main {
     background-image: url("../imgs/imgs-italia/bandeira.webp");
     background-size: cover;
 }
+
 .button-italia:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(122, 2, 2);
@@ -140,11 +150,13 @@ main {
     background-image: url("../imgs/imgs-japan/bandeira.jpg");
     background-size: cover;
 }
+
 .button-japan:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(255, 5, 5);
     transform: scale(1.1);
 }
+
 .button-mexic {
     width: 250px;
     height: 170px;
@@ -155,6 +167,7 @@ main {
     background-image: url("../imgs/imgs-mexic/bandeira.jpg");
     background-size: cover;
 }
+
 .button-mexic:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -171,6 +184,7 @@ main {
     background-image: url("../imgs/imgs-brasil/bandeira.jpg");
     background-size: cover;
 }
+
 .button-brasil:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(122, 2, 2);
@@ -190,11 +204,13 @@ main {
     background-image: url("../imgs/imgs-india/bandeira.jpg");
     background-size: cover;
 }
+
 .button-india:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(255, 5, 5);
     transform: scale(1.1);
 }
+
 .button-franca {
     width: 250px;
     height: 170px;
@@ -205,11 +221,13 @@ main {
     background-image: url("../imgs/imgs-franca/bandeira.webp");
     background-size: cover;
 }
+
 .button-franca:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     transform: scale(1.1);
 }
+
 .button-somalia {
     width: 250px;
     height: 170px;
@@ -220,19 +238,13 @@ main {
     background-image: url("../imgs/imgs-soma/bandeira.jpg");
     background-size: cover;
 }
+
 .button-somalia:hover {
     border: solid 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     transform: scale(1.1);
-
-
-
-
-
-
-
-
 }
+
 .hr {
     background-color: rgba(0, 0, 0, 0.651);
     width: 80%;
@@ -300,6 +312,7 @@ main {
     border: 2px solid white;
     transition: all 0.2s ease;
 }
+
 .img-pratos:hover {
     transform: scale(1.1);
 }

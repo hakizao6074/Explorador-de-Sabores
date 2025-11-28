@@ -95,3 +95,10 @@ btnMexico.addEventListener("click", () => {
 	back_fundo2.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
 	back_fundo3.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
 })
+
+//trocar o tema
+function toggleTheme() {
+	body.classList.toggle("dark")
+}
+
+btnTema.addEventListener("click", toggleTheme)
