@@ -19,12 +19,11 @@ const btnJapao = document.getElementById("btnJapao");
 const btnMexico = document.getElementById("btnMexico");
 
 // fundo cartoes do dos pratos
-const back_fundo1 = document.getElementById("image-back1")
-const back_fundo2 = document.getElementById("image-back2")
-const back_fundo3 = document.getElementById("image-back3")
+const back_fundo1 = document.getElementById("image-back1");
+const back_fundo2 = document.getElementById("image-back2");
+const back_fundo3 = document.getElementById("image-back3");
 
 // troca a badneira de cada pais selecionado
-
 
 //temas escuro - claro
 const btnTema = document.getElementById("tema");
@@ -33,79 +32,90 @@ const btnTema = document.getElementById("tema");
 const body = document.body;
 
 // troca o nome de cada pais selecionado
-const Nome_pais = document.getElementById("nome-pais")
+const Nome_pais = document.getElementById("nome-pais");
 
 //eventos
 btnItalia.addEventListener("click", () => {
-	//titulos
-	nomePrato1.textContent = 'Prato Italiano';
-	nomePrato2.textContent = 'Lasanha';
-	nomePrato3.textContent = 'Risoto';
+  //titulos
+  nomePrato1.textContent = "Napolitana";
+  nomePrato2.textContent = "Lasanha";
+  nomePrato3.textContent = "Risoto";
 
-	//descricao
-	descricaoPrato1.textContent = 'Uma tradicional pizza italiana';
-	descricaoPrato2.textContent = 'Uma tradicional comida a base de massa';
-	descricaoPrato3.textContent = 'Uma tradicional comida italiana a base de arroz';
+  //descricao
+  descricaoPrato1.textContent = `A clássica italiana que não precisa provar nada pra ninguém — mas mesmo assimprova,a cada mordida, por que é tão amada. Massa leve, borda fofinha e crocante ao mesmo tempo (umverdadeiro milagre da física), molho de tomate feito como manda a nonna e mussarela que derrete só de olhar. Simples, honesta e irresistível.`;
+  descricaoPrato2.textContent = `A rainha da cozinha italiana que abraça sua fome de forma majestosa. Camadas demassa macia, molho encorpado, carne ou legumes temperados com carinho e queijo derretido que faz qualquer garfada ser pura felicidade. Uma mistura de tradição e conforto que chega e diz: 'fica à vontade, hoje a refeição é sua`;
+  descricaoPrato3.textContent = `O prato que dança na panela e no seu paladar. Arroz cremoso, envolto em sabores ricos, seja de cogumelos, frutos do mar ou queijo, sempre com aquele toque que faz você suspirar a cada colherada. Elegante, delicado, mas sem frescura.`;
 
-	//imgs
-	imgPrato1.src = "./assets/imgs/imgs-italia/napolitana.jpg";
-	imgPrato2.src = "./assets/imgs/imgs-italia/lasanha.jpg";
-	imgPrato3.src = "./assets/imgs/imgs-italia/risoto.jpg";
+  //imgs
+  imgPrato1.src = "./assets/imgs/imgs-italia/napolitana.jpg";
+  imgPrato2.src = "./assets/imgs/imgs-italia/lasanha.jpg";
+  imgPrato3.src = "./assets/imgs/imgs-italia/risoto.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-italia/back.jpg")';
+  back_fundo1.style.backgroundImage =
+    'url("/assets/imgs/imgs-italia/back.jpg")';
+  back_fundo2.style.backgroundImage =
+    'url("/assets/imgs/imgs-italia/back.jpg")';
+  back_fundo3.style.backgroundImage =
+    'url("/assets/imgs/imgs-italia/back.jpg")';
 
-
-	Nome_pais.textContent = 'Italia'
-	
-})
+  Nome_pais.textContent = "Italia";
+});
 
 btnJapao.addEventListener("click", () => {
-	//titulos
-	nomePrato1.textContent = 'sushi';
-	nomePrato2.textContent = 'Sashimi' 
-	nomePrato3.textContent = 'Tempurá';
+  //titulos
+  nomePrato1.textContent = "sushi";
+  nomePrato2.textContent = "Sashimi";
+  nomePrato3.textContent = "Tempurá";
 
-	//descricao
-	descricaoPrato1.textContent = 'Bolinho de arroz temperado com vinagre, que pode ser enrolado.';
-	descricaoPrato2.textContent = 'Bolinho de arroz temperado com vinagre, servido em cone';
-	descricaoPrato3.textContent = 'Frutos do mar ou vegetais empanados em uma massa leve e fritos';
+  //descricao
+  descricaoPrato1.textContent =
+    "Bolinho de arroz temperado com vinagre, que pode ser enrolado.";
+  descricaoPrato2.textContent =
+    "Bolinho de arroz temperado com vinagre, servido em cone";
+  descricaoPrato3.textContent =
+    "Frutos do mar ou vegetais empanados em uma massa leve e fritos";
 
-	//imgs
-	imgPrato1.src = "./assets/imgs/imgs-japan/sushi.jpg";
-	imgPrato2.src = "./assets/imgs/imgs-japan/sashimi.jpg";
-	imgPrato3.src = "./assets/imgs/imgs-japan/tempura.jpg";
+  //imgs
+  imgPrato1.src = "./assets/imgs/imgs-japan/sushi.jpg";
+  imgPrato2.src = "./assets/imgs/imgs-japan/sashimi.jpg";
+  imgPrato3.src = "./assets/imgs/imgs-japan/tempura.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+  back_fundo1.style.backgroundImage =
+    'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+  back_fundo2.style.backgroundImage =
+    'url("/assets/imgs/imgs-japan/back-japan.jpg")';
+  back_fundo3.style.backgroundImage =
+    'url("/assets/imgs/imgs-japan/back-japan.jpg")';
 
-	bandeiraCountry.src = 'assets/imgs/imgs-japan/bandeira.jp'
-	Nome_pais.textContent = 'japão'
-
-
-})
+  bandeiraCountry.src = "assets/imgs/imgs-japan/bandeira.jp";
+  Nome_pais.textContent = "japão";
+});
 
 btnMexico.addEventListener("click", () => {
-	//titulos
-	nomePrato1.textContent = 'Tacos';
-	nomePrato2.textContent = 'Burrito';
-	nomePrato3.textContent = 'Quesadilhas';
+  //titulos
+  nomePrato1.textContent = "Tacos";
+  nomePrato2.textContent = "Burrito";
+  nomePrato3.textContent = "Quesadilhas";
 
-	//descricao
-	descricaoPrato1.textContent = 'Tortilhas (milho ou trigo) recheadas com carne, frango, peixe ou vegetais';
-	descricaoPrato2.textContent = 'Tortilhas de trigo grandes enrolada com proteinas e vegetais';
-	descricaoPrato3.textContent = 'Tortilhas de milho ou trigo com queijo derretido, com carne ou vegetais';
+  //descricao
+  descricaoPrato1.textContent =
+    "Tortilhas (milho ou trigo) recheadas com carne, frango, peixe ou vegetais";
+  descricaoPrato2.textContent =
+    "Tortilhas de trigo grandes enrolada com proteinas e vegetais";
+  descricaoPrato3.textContent =
+    "Tortilhas de milho ou trigo com queijo derretido, com carne ou vegetais";
 
-	//imgs
-	imgPrato1.src = "./assets/imgs/imgs-mexic/tacos.jpg";
-	imgPrato2.src = "./assets/imgs/imgs-mexic/burrito.jpg";
-	imgPrato3.src = "./assets/imgs/imgs-mexic/quesadilhas.jpg";
+  //imgs
+  imgPrato1.src = "./assets/imgs/imgs-mexic/tacos.jpg";
+  imgPrato2.src = "./assets/imgs/imgs-mexic/burrito.jpg";
+  imgPrato3.src = "./assets/imgs/imgs-mexic/quesadilhas.jpg";
 
-	back_fundo1.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
-	back_fundo2.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
-	back_fundo3.style.backgroundImage = 'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+  back_fundo1.style.backgroundImage =
+    'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+  back_fundo2.style.backgroundImage =
+    'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
+  back_fundo3.style.backgroundImage =
+    'url("/assets/imgs/imgs-mexic/back-mexic.jpg")';
 
-	Nome_pais.textContent = 'Mexico'
-})
+  Nome_pais.textContent = "Mexico";
+});
