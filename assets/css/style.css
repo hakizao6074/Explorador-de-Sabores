@@ -89,10 +89,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("../imgs/imgs-back/boa.jpg");
+    background-image: url("../imgs/comidas/ChatGPT\ Image\ 1\ de\ dez.\ de\ 2025\,\ 14_11_37.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     border: none;
 }
 
@@ -571,4 +571,16 @@ main, .container-1, .bestseler-2, .block-2 {
 main, .container-1, .bestseler-3, .block-3 {
     max-width: 100%;
     overflow: hidden;
+}
+
+.button-brasil:hover, .button-italia:hover, .button-japan:hover,
+.button-mexic:hover, .button-india:hover, .button-franca:hover,
+.button-somalia:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.img-pratos-1:hover, .img-pratos-2:hover, .img-pratos-3:hover{
+    cursor: pointer;
+    opacity: 0.8;
 }
