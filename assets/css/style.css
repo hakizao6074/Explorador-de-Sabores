@@ -64,7 +64,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("../imgs/boa.jpg");
+    background-image: url("../imgs/imgs-back/boa.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
