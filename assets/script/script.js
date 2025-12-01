@@ -96,6 +96,28 @@ btnMexico.addEventListener("click", () => {
 	back_fundo3.style.backgroundImage = './assets/imgs/imgs-mexic/back-mexic.jpg';
 })
 
+btnSoma.addEventListener("click", () => {
+	//titulos
+	nomePrato1.textContent = 'Canjeero';
+	nomePrato2.textContent = 'Canbulo Iyo Bun';
+	nomePrato3.textContent = 'Soor';
+
+	//descricao
+	descricaoPrato1.textContent = 'um alimento simples feito com dois ingredientes básicos: farinha (ou farinha de milho) e fermento.';
+	descricaoPrato2.textContent = 'uma combinação de feijão e arroz, feijão e trigo, ou sorgo e trigo com grãos de café secos fritos no óleo.';
+	descricaoPrato3.textContent = 'conhecido como ugali na África Oriental, é um alimento popular feito com milho moído.';
+	
+	//imgs
+	imgPrato1.src = "./assets/imgs/imgs-soma/Canjeero.jpg";
+	imgPrato2.src = "./assets/imgs/imgs-soma/Canbulo.jpg";
+	imgPrato3.src = "./assets/imgs/imgs-soma/Soor.jpg";
+
+	//background das imgs dos cards
+	back_fundo1.style.backgroundImage = './assets/imgs/imgs-soma/back-soma.jpg';
+	back_fundo2.style.backgroundImage = './assets/imgs/imgs-soma/back-soma.jpg';
+	back_fundo3.style.backgroundImage = './assets/imgs/imgs-soma/back-soma.jpg';
+})
+
 //trocar o tema
 function toggleTheme() {
 	body.classList.toggle("dark")
