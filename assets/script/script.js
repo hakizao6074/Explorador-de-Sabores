@@ -102,3 +102,23 @@ function toggleTheme() {
 }
 
 btnTema.addEventListener("click", toggleTheme)
+
+//audio
+const audio = document.getElementById("audio");
+
+audio.volume = 0.2;
+audio.loop = true;
+
+window.addEventListener("load", () => {
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+        playPromise.catch((err) => {
+            console.warn("Autoplay prevented:", err);
+            const onFirstInteraction = () => {
+                audio.play().catch(()=>{});
+                window.removeEventListener("click", onFirstInteraction);
+            };
+            window.addEventListener("click", onFirstInteraction, { once: true });
+        });
+    }
+});
