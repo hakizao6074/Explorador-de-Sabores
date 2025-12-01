@@ -10,7 +10,7 @@
 /*Cores default (light)*/
 :root {
 	--bg-main: rgba(255, 255, 255, 0.774);
-	--bg-body: ;
+	--bg-body: black;
 }
 
 /*Cores (dark)*/
@@ -106,7 +106,7 @@ header {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    color: #333541;
+    color: #ffffff;
     font-size: 23px;
     padding: 20px;
     font-family: "Mulish", sans-serif;
